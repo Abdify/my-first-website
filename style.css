@@ -3,3 +3,49 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.colors{
+    height: 200px;
+    width: 100%;
+    font-size: 50px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 30px;
+    width: 80px;
+    border: none;
+}
+
+.green_white{
+    background-color: #5CDB95;
+    color: #EDF5E1;
+}
+.green_blue{
+    background-color: #5CDB95;
+    color: #05386B;
+}
+
+.black_yellow{
+    background-color: #272727;
+    color: #FFE400;
+}
+
+.black_lightblue{
+    background-color: #272727;
+    color: #14A76C;
+}
+.black_orange{
+    background-color: #272727;
+    color: #FF652F;
+}
+.blue_white{
+    background-color: #3AAFA9;
+}
+.yellow_black{
+    background-color: #F3D250;
+}
